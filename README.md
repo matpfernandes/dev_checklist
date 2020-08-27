@@ -4,21 +4,23 @@
 - [ ] [README]()
 - [ ] [Dependabot]()
 
-### Keeper
-- [ ] [AWS credentials]()
-- [ ] [Google credentials]()
-- [ ] [Terraform env vars]()
+### [Keeper](https://www.keepersecurity.com/)
+- [ ] AWS credentials
+- [ ] Google credentials
+- [ ] Terraform env vars
 
 ### GDPR
-- [ ] [Encrypt, pseudonymize, or anonymize personal data wherever possible]()
-- [ ] [Sign a data processing agreement between your organization and any third parties that process personal data on your behalf]()
-- [ ] [It's easy for your customers to request and receive all the information you have about them]()
-- [ ] [It's easy for your customers to request to have their personal data deleted]()
+- [ ] Encrypt, pseudonymize, or anonymize personal data wherever possible
+- [ ] Sign a data processing agreement between your organization and any third parties that process personal data on your behalf
+- [ ] It's easy for your customers to request and receive all the information you have about them
+- [ ] It's easy for your customers to request to have their personal data deleted
 
 ### Quality
-- [ ] [CodeClimate for the project and enable Pull Requests reviews]()
+- [ ] [CodeClimate for the project and enable Pull Requests reviews](https://codeclimate.com/github/codeclimate/codeclimate/badges)
+- [ ] [<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>]()
+- [ ] [<a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>]
 - [ ] [Sentry is configured on Google client's account]()
-- [ ] [pre-commit gjira installed]()
+- [ ] [pre-commit gjira installed](https://github.com/benmezger/gjira)
 
 ## BACKEND
 
@@ -27,9 +29,7 @@
 - [ ] [Infrastructure diagram]()
 - [ ] [Entity-Relationship diagram]()
 - [ ] [Architecture definitions document]()
-- [ ] [Sentry]()
 - [ ] [Infrastructure setup]()
-- [ ] [Updated README document]()
 - [ ] [Updated API document/swagger]()
 
 ### Security
@@ -37,8 +37,9 @@
 - [ ] [Cors]()
 
 ### CI/CD
-- [ ] [CircleCI]()
-- [ ] [All environments is deploying: lab, stg, prod (if is necessary)]()
+- [ ] [CircleCI](https://circleci.com/docs/2.0/status-badges/#creating-badges-for-private-repositories)
+<!-- [![CircleCI](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN> -->
+- [ ] [All environments is deploying: lab, stg, prod (using terraform)]()
 
 ## PYTHON
 
@@ -49,10 +50,6 @@
 - [ ] [using versalite image]()
 - [ ] [production is using guicorn]()
 
-### Tests
-- [ ] [Pytest configured]()
-- [ ] [Coverage with 20% at least]()
-
 ## NODEJS
 
 ### Linters
@@ -60,10 +57,6 @@
 
 ### Optimization
 - [ ] [production is using builded folder]()
-
-### Tests
-- [ ] [run test: Mocha]()
-- [ ] [run test coverage: 20% mininum]()
 
 ## Analytics & Monitoring
 
